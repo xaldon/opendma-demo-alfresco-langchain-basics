@@ -1,0 +1,25 @@
+[project]
+name = "opendma-demo-alfresco-langchain-basics"
+version = "0.1.0"
+description = "Basic LangChain examples for Alfresco Content Services through OpenDMA"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=1.0.0,<2.0.0",
+    "langchain-openai>=1.0.0,<2.0.0",
+    "langchain-opendma[unstructured]",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+alfresco-loader-vectorstore = "opendma_demo_alfresco_langchain_basics.loader_vectorstore:main"
+alfresco-live-search = "opendma_demo_alfresco_langchain_basics.live_retriever:main"
+alfresco-toolkit-agent = "opendma_demo_alfresco_langchain_basics.toolkit_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
