@@ -1,7 +1,7 @@
 # opendma-demo-alfresco-langchain-basics
 
 This repository contains the sample applications for the article
-[Connecting LangChain to Alfresco Without Writing Another REST Loader](https://xaldon.com/connecting-langchain-to-alfresco-without-writing-another-rest-loader).
+[Connecting LangChain to Alfresco Without Writing Another REST Loader](https://dev.to/stefankopfxaldon/connecting-langchain-to-alfresco-without-writing-another-rest-loader-355).
 
 The examples show three basic ways to use Alfresco Content Services from
 LangChain through OpenDMA:
